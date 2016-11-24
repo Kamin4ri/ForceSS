@@ -1,8 +1,8 @@
-id=template
-name=Template Module
-version=v1
+id=forcess
+name=Force Single-SIM Mode
+version=v0.1
 versionCode=1
-author=topjohnwu
-description=A short description
+author=kamin4ri
+description=Forces single-SIM mode on dual-SIM Moto Gs running non-stock ROMs
 support=http://forum.xda-developers.com/showthread.php?t=3432382
 donate=http://topjohnwu.github.io/donate

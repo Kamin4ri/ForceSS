@@ -33,14 +33,14 @@
 
 # This will be the folder name under /magisk or /cache/magisk
 # This should also be the same as the id in your module.prop to prevent confusion
-MODID=template
+MODID=forcess
 
 # Set to true if you need automount
 # Most mods would like it to be enabled
 AUTOMOUNT=true
 
 # Set to true if you need post-fs-data script
-POSTFSDATA=false
+POSTFSDATA=true
 
 # Set to true if you need late_start service script
 LATESTARTSERVICE=false
@@ -52,9 +52,9 @@ LATESTARTSERVICE=false
 # Set what you want to show when installing your mod
 
 print_modname() {
-  ui_print "*******************************"
-  ui_print "     Magisk Module Template    "
-  ui_print "*******************************"
+  ui_print "*********************************"
+  ui_print "* Force Single-SIM Mode - Moto G"
+  ui_print "*********************************"
 }
 
 ##########################################################################################
@@ -65,15 +65,6 @@ print_modname() {
 # By default Magisk will merge your files with the original system
 # Directories listed here however, will be directly mounted to the correspond directory in the system
 
-# This is an example
-REPLACE="
-/system/app/Youtube
-/system/priv-app/SystemUI
-/system/priv-app/Settings
-/system/framework
-"
-
-# Construct your own list here
 REPLACE="
 "
 
